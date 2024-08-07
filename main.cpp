@@ -13,7 +13,7 @@ std::string currentDateTime() {
  
 int main()
 {
-    std::cout << "Hora y fecha actuales: " << currentDateTime() << std::endl;
+    std::cout << "Current Time and Date: " << currentDateTime() << std::endl;
  
     return 0;
 }
