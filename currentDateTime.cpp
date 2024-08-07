@@ -2,7 +2,7 @@
 #include <string>
 #include <ctime>
 
-std::string currentDateTime() {
+extern "C" __declspec(dllexport) std::string currentDateTime() {
     std::time_t t = std::time(nullptr);
     std::tm* now = std::localtime(&t);
  
