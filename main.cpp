@@ -5,7 +5,7 @@
 
 int main()
 {
-    std::cout << "Current Time and Date: " << currentDateTime() << std::endl;
+    std::cout << "Hora y fecha actuales: " << currentDateTime() << std::endl;
  
     return 0;
 }
